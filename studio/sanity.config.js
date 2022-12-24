@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'vilaj-labs',
 
-  projectId: 'ikcxbai4',
+  projectId: 'hzlq5dxw',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
