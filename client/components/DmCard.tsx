@@ -2,7 +2,14 @@ import Image from 'next/image'
 import styles from '../styles/dmCard.module.css'
 import { useRouter } from 'next/router'
 
-const DmCard = ({ name, status, avatar, id }) => {
+type DmCardProps = {
+  name: string
+  status: string
+  avatar: string
+  id: number
+}
+
+const DmCard: React.FunctionComponent<DmCardProps> = ({ name, status, avatar, id }) => {
   const router = useRouter()
 
   const changeUrl = () => {
