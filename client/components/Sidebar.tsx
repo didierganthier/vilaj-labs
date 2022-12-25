@@ -7,22 +7,22 @@ const dummyChannels = [
   {
     id: 1,
     name: 'general',
-    avatar: 'https://github.com/CleverProgrammers/discord-clone-blockchain/blob/master/client/assets/avatar-1.webp',
+    avatar: 'https://raw.githubusercontent.com/CleverProgrammers/discord-clone-blockchain/master/client/assets/avatar-1.webp',
   },
   {
     id: 2,
     name: 'random',
-    avatar: 'https://github.com/CleverProgrammers/discord-clone-blockchain/blob/master/client/assets/avatar-2.png',
+    avatar: 'https://raw.githubusercontent.com/CleverProgrammers/discord-clone-blockchain/master/client/assets/avatar-2.png',
   },
   {
     id: 3,
     name: 'random',
-    avatar: 'https://github.com/CleverProgrammers/discord-clone-blockchain/blob/master/client/assets/avatar-3.webp',
+    avatar: 'https://raw.githubusercontent.com/CleverProgrammers/discord-clone-blockchain/master/client/assets/avatar-3.webp',
   },
   {
     id: 4,
     name: 'random',
-    avatar: 'https://github.com/CleverProgrammers/discord-clone-blockchain/blob/master/client/assets/avatar-4.webp',
+    avatar: 'https://raw.githubusercontent.com/CleverProgrammers/discord-clone-blockchain/master/client/assets/avatar-4.webp',
   },
 ]
 
