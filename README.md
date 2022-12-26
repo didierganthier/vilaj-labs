@@ -16,9 +16,18 @@ Vilaj is built with [Next JS](https://nextjs.org/) and [Tailwind CSS](https://ta
 
 To get started with Vilaj, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/didierganthier/vilaj-labs.git`
-2. Install dependencies: `npm install`
-3. Start the development server: `npm run dev`
+1. Clone the repository: 
+```
+git clone https://github.com/didierganthier/vilaj-labs.git
+```
+2. Install dependencies: 
+```
+npm install
+```
+3. Start the development server: 
+```
+npm run dev
+```
 
 ## Contributing
 
