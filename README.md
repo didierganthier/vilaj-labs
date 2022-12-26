@@ -35,4 +35,4 @@ We welcome contributions to Vilaj! If you have an idea for a feature or have fou
 
 ## License
 
-Vilaj is licensed under the [MIT License](LICENSE).
+Vilaj is licensed under the [MIT License](https://github.com/didierganthier/vilaj-labs/blob/dev/MIT.md).
