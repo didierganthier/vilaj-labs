@@ -8,6 +8,8 @@ import pin from '../assets/icons/pin.svg'
 import at from '../assets/icons/at.svg'
 import styles from '../styles/chatHeader.module.css'
 
+const currentAccount = '0x6752e6D532dB26bD2E5074113a06B413A789CC74'
+
 const ChatHeader = () => {
     return (
         <div className={styles.chatHeader}>
@@ -16,9 +18,17 @@ const ChatHeader = () => {
                 <h3 className={styles.title}>Room Name</h3>
                 <div className={styles.chatHeaderStatus} id='online' />
             </div>
-            <div className={styles.connectWallet}>
-                Connect Wallet
-            </div>
+            {currentAccount ? (
+                <div className={styles.connectedWallet}>
+                    <Image src='https://raw.githubusercontent.com/CleverProgrammers/discord-clone-blockchain/master/client/assets/eth.png' height={20} width={15} alt='ethLogo' />
+                    <span className={styles.separator}>{'|'}</span>
+                    {currentAccount.slice(0, 6)}...{currentAccount.slice(39)}
+                </div>
+            ) : (
+                <div className={styles.connectWallet}>
+                    Connect Wallet
+                </div>
+            )}
             <div className={styles.headerIconsContainer}>
                 <div className={styles.headerItem}>
                     <Image
