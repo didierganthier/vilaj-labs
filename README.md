@@ -4,7 +4,7 @@ Vilaj is a web app developed by Vilaj Labs, designed to help artists retain thei
 
 ## Technology
 
-Vilaj is built with [Next JS](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/).
+Vilaj is built with [Next JS](https://nextjs.org/), [Sanity Studio](https://www.sanity.io/) and [Node.js](https://nodejs.org/en/).
 
 ## Features
 
